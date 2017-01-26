@@ -6,6 +6,8 @@
 #include "version.h"
 #include "guids.h"
 #include "config.h"
+#include "folders.h"
+#include "parserdata.h"
 
 #include <iostream>
 

@@ -4,11 +4,16 @@
 #include <iostream>
 #include <string>
 
+
+
 const std::string SignBase64    = "{#base64:77u/";
 const std::string SignBase64Add = "{#base64:";
 const std::string SignMoxel     = "MOXCEL";
 const std::string SignHTML      = "<HTML";
 const std::string SignHTML1     = "<!DOCTYPE html";
+
+std::string& replaceAll(string& context, const string& from, const string& to);
+
 /*
   SignBMP = '#42#4D';
 
